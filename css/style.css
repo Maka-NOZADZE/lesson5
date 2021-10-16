@@ -1,0 +1,154 @@
+body {
+  /* we need scroll on the page */
+  height: 2000px;
+  background-color: #e0eaef;
+}
+.header {
+  background-color: #f6f8f9;
+  padding: 15px;
+  /* header is block element and take all width, but after giving FIXED position takes only his width like inline element, so we need to give him 100%width */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.logo {
+  vertical-align: middle;
+  margin-right: 92px;
+  margin-left: 10px;
+  color: #fa6980;
+}
+.nav {
+  /* to have them side by side */
+  display: inline-block;
+  /* middle position with logo */
+  vertical-align: middle;
+}
+.nav-li {
+  display: inline-block;
+  margin-right: 30px;
+  /* font-size: 24px; */
+  vertical-align: middle;
+}
+.nav-li photo {
+  margin-right: 40px;
+}
+
+/*  ****************** start Section 1********* */
+.section-1 {
+  width: 1170px;
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom: 58px;
+}
+.div-section-1 {
+  width: 1160px;
+  height: 350px;
+}
+.section-1-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+.section-1-box {
+  width: 360px;
+  height: 350px;
+  display: inline-block;
+  margin-right: 15px;
+  background-color: #ffffff;
+}
+.box-img {
+  display: inline-block;
+  margin-bottom: 20px;
+  width: 360px;
+  height: 180px;
+  position: relative;
+}
+.image-text {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.box-text {
+  display: inline-block;
+  width: 280px;
+  margin: 40px;
+  /* font-weight: bold; */
+  color: #a6adb4;
+}
+.box-footer {
+  margin-left: 40px;
+}
+
+/************* section 2 ********************** */
+.section-2 {
+  width: 1170px;
+  margin: auto;
+  margin-bottom: 37px;
+}
+.section2-title {
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.section2-2photos {
+  display: inline-block;
+  width: 760px;
+  height: 430px;
+  margin-right: 40px;
+}
+.big-img {
+  margin-bottom: 40px;
+}
+.section2-5photos {
+  display: inline-block;
+  vertical-align: top;
+  width: 360px;
+  height: 896px;
+}
+.small-img {
+  margin-bottom: 102px;
+}
+
+/***************FOOTER*************** */
+.footer {
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  bottom: 0;
+  background-color: #a6adb4;
+  display: inline-block;
+}
+
+.footer-listing {
+  display: inline-block;
+  width: 487px;
+  height: 84px;
+  margin-left: 142px;
+  margin-top: 56px;
+}
+.footer-logo {
+  display: inline-block;
+  vertical-align: top;
+  color: #e0eaef;
+}
+.liste {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 50px;
+  margin-left: 30px;
+}
+.footer-navigation {
+  color: #e0eaef;
+}
+.span {
+  margin-left: 105px;
+  margin-right: 165px;
+  color: #e0eaef;
+}
+.icons {
+  margin-right: 10px;
+}
